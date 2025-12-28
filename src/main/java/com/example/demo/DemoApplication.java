@@ -13,7 +13,7 @@ public class DemoApplication {
     // 添加一个简单的 REST 端点
     @GetMapping("/")
     public String helloWorld() {
-        return "Hello World!";
+        return "Have a nice day, Sir!";
     }
     
     @GetMapping("/hello")
